@@ -1,0 +1,61 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+* The directory now has an empty repo in the same location. You can start to tracking the history of your files.
+
+
+
+
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+* Staging area is a previous state to repo and a state after working directory and allow us to have more control of
+  our files before we commit them.
+
+
+
+
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+* Using git status after run git add, we can check all the files waiting for be commited and easily see if make sense
+  to commit all of them or not.
+
+
+
+What are some situations when branches would be helpful in keeping your history 
+organized?
+
+* When you are trying new experiments on your files, but you want to still have a main file.
+
+
+
+ How would branches help?
+
+ How do the diagrams help you visualize the branch structure?
+
+* Branches help to keep organized different updates or features that we want to try without break our master branch
+  Help me by letting me know exactly what commit belongs to each branch and what could happen to a commit if
+  it is not part of any of them.
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+* The result is a single branch with updates from both merging branches. Because allow us to easyly backtrack the history
+  of our files and determine the parent of each commit and what commit could be lost.
+
+
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges 
+manually?
+
+
+* If git automatically merge, we have the advantage of commit all new features we did and almost never lost a change,
+  however many irrelevant changes will be commited and that will lead to much more commit a huge difficulty finding relevant
+  changes.
+
+  Manually merges is basically the opposite but I prefer manually.
