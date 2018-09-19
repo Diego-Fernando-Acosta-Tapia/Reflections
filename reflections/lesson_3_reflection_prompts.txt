@@ -18,7 +18,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    In case, you are not connected to the internet you can check what is online an work easily on your own machine and later push
+    the work you will do.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
