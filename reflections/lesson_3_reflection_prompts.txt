@@ -30,4 +30,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you are exploring new features for your files and you do not want to break the source code.
+    Using github, you can benefit working together with other people and expand the minds working on your projects.
